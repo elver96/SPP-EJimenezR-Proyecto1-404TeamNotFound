@@ -26,7 +26,7 @@ public class SPPEJimenezRProyecto1404TeamNotFound {
         System.out.println("2.Distancias");
         System.out.println("3.Temperaturas");
         System.out.println("4.Pesos");
-        System.out.println("Salir de la calculadora");
+        System.out.println("5.Salir de la calculadora");
         opEntrada= kb.nextInt();
         
         switch (opEntrada){
@@ -124,7 +124,7 @@ public class SPPEJimenezRProyecto1404TeamNotFound {
                 }break;
             case 3:
                 System.out.println("Bienvenido el convertor de temperaturas");
-                System.out.println("Introduce el sistema original");
+                System.out.println("Introduce el tipo de conversión");
                 System.out.println("1.ºC a ºF");
                 System.out.println("2.ºF a ºC");
                 opEntrada=kb.nextInt();
@@ -166,6 +166,9 @@ public class SPPEJimenezRProyecto1404TeamNotFound {
                         System.out.println("El resultado es "+g+" gramos");
                         break;
                 }break;
+            case 5:
+                System.out.println("Hasta luego!!");
+                break;
             default:
                 System.out.println("Buena suerte!!");
         }
