@@ -21,7 +21,7 @@ public class SPPEJimenezRProyecto1404TeamNotFound {
         double lit, gal, cm, in, m, ft, km, mi, tc, tf, g, lb;
         Scanner kb= new Scanner(System.in);
         //Solicitamos el tipo de cambio: liquidos, temperaturas, distancias o pesos
-        System.out.println("Converir:  ");
+        System.out.println("Qué deseas converir?");
         System.out.println("1.Líquidos");
         System.out.println("2.Distancias");
         System.out.println("3.Temperaturas");
@@ -133,7 +133,7 @@ public class SPPEJimenezRProyecto1404TeamNotFound {
                     case 1:
                         System.out.println("Introduce los grados Celsius");
                         tc=kb.nextDouble();
-                        tf=(tc*9.8)+32;
+                        tf=(tc*1.8)+32;
                         System.out.println("El resultado son "+tf+" grados Fahrenheit");
                         break;
                     case 2:
